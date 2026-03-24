@@ -119,3 +119,12 @@ h1, h2 {
     margin: 5px 0;
     font-size: 14px;
 }
+.insta-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+
+    color: white;
+    text-decoration: none;
+}
