@@ -85,9 +85,11 @@ h1, h2 {
         background-position: center top;
     }
 }
+
 .insta-list {
     list-style: none;
     padding: 0;
+    margin-top: 10px;
 }
 
 .insta-list li {
