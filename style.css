@@ -1,13 +1,12 @@
 body {
     font-family: Arial, sans-serif;
-    background: url("bg.jpg") no-repeat center center fixed;
+    background: url("bg.jpg") no-repeat center center;
     background-size: cover;
     color: white;
     margin: 0;
     padding: 0;
 }
 
-/* Escurecer fundo */
 body::before {
     content: "";
     position: fixed;
@@ -59,9 +58,11 @@ h1, h2 {
 
 .video-wrapper iframe {
     width: 100%;
+    max-width: 700px; 
     aspect-ratio: 16 / 9;
     border-radius: 12px;
     display: block;
+    margin: 0 auto;
 }
 
 @media (max-width: 600px) {
@@ -76,5 +77,11 @@ h1, h2 {
     section {
         width: 95%;
         padding: 12px;
+    }
+}
+
+@media (max-width: 600px) {
+    body {
+        background-position: center top;
     }
 }
