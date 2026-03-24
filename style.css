@@ -38,7 +38,8 @@ header {
 section {
     padding: 15px;
     margin: 20px auto;
-    width: 75%;
+    width: 90%;
+    max-width: 900px;
 
     background: rgba(0, 0, 0, 0.4);
     backdrop-filter: blur(4px);
@@ -57,10 +58,23 @@ h1, h2 {
 }
 
 .video-wrapper iframe {
-    width: 70%;
-    max-width: 700px;
-    aspect-ratio: 16 / 9; 
+    width: 100%;
+    aspect-ratio: 16 / 9;
     border-radius: 12px;
     display: block;
-    margin:0 auto;  
+}
+
+@media (max-width: 600px) {
+    h1 {
+        font-size: 28px;
+    }
+
+    h2 {
+        font-size: 20px;
+    }
+
+    section {
+        width: 95%;
+        padding: 12px;
+    }
 }
