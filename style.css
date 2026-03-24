@@ -128,3 +128,44 @@ h1, h2 {
     color: white;
     text-decoration: none;
 }
+
+.insta-list {
+    list-style: none;
+    padding: 0;
+    margin: 20px auto;
+    max-width: 400px;
+}
+
+
+.insta-list li {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 10px 15px;
+    margin: 10px 0;
+
+    border-radius: 10px;
+
+    display: flex;
+    justify-content: center;
+}
+
+
+.insta-link {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+
+.insta-icon {
+    width: 22px;
+    height: 22px;
+}
+
+
+.insta-list li:hover {
+    background: rgba(255, 255, 255, 0.2);
+}
